@@ -82,7 +82,7 @@ function slider(selector) {
         animate.left = 0;
       } else {
         temp.css("left", 0);
-        animate.left = j * 100 + "%";
+        animate.left = j * -100 + "%";
       }
       // ---
       active.removeClass("slider__slide_active");
